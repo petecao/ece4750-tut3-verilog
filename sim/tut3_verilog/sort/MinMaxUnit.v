@@ -23,6 +23,9 @@ module tut3_verilog_sort_MinMaxUnit
   // unit test from scratch named MinMaxUnit_test.py.
   // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+  assign out_min = (in0 < in1) ? in0 : in1;
+  assign out_max = (in0 > in1) ? in0 : in1;
+
 endmodule
 
 `endif /* TUT3_VERILOG_SORT_MIN_MAX_UNIT_V */
